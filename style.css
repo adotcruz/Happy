@@ -1,0 +1,46 @@
+#main-title{
+	text-align:center;
+	margin-bottom: 25px;
+}
+
+#submit{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	border-width: 0px;
+}
+
+#main-action{
+	background-color: #ff8080;
+	margin-top: 100px;
+}
+
+
+input[type=file]{
+	display: inline-block;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+	border-style: none;
+	box-shadow: 1px 1px 1px #888888;
+
+}
+
+
+
+#submit-button{
+	margin-top: 25px;
+	border-radius: 5px;
+	background-color: #b3b3ff;
+	width: 150px;
+	height: 50px;
+}
+
+#input-img{
+	display: none;
+	width: 50%;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}

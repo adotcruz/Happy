@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Happy Detection App</title>
+<meta charset="utf-8"></meta>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<script src="api-access.js"></script>
+<script src="jQuery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="main-action" class="col-lg-offset-2 col-lg-8 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+				<h1 id="main-title">Are you happy?</h1>
+				<img id="input-img" src="#" alt="Your uploaded image"/>
+				<div id="submit">
+					<form>
+						<input type="file" name="pic" onchange="addImage(this)"accept="image/*">
+						<br/>
+						<input id="submit-button" type="submit">
+					</form>
+				</div><!--submit-->
+			</div>
+
+		</div><!--row-->
+
+	</div><!--container-->
+
+</body>
+
+</HTML>
